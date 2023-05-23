@@ -72,10 +72,3 @@ variable "subnets" {
   default = {}
 }
 
-############################
-# State File
-############################ 
-variable ackey {
-  description = "Not required if MSI is used to authenticate to the SA where state file is"
-  default     = null
-}
